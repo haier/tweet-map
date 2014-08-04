@@ -1,0 +1,22 @@
+<config>　　
+    <appconfig>
+
+        <osc_host>http://www.oschina.net</osc_host>								<!-- //oschina域名- 测试 -->
+        <!-- <osc_host>http://www.oschina.net</osc_host>						//oschina域名 -->
+
+        <!-- //oschina open api应用信息: 需要申请！ -->
+        <client_secret>HvRkrBxyhJW4fedjYQynqswEs5PU8d9u</client_secret>			<!-- //应用私钥 -->
+        <client_id>9offZrPebB75IH24dpFH</client_id>								<!-- //应用id -->
+        <redirect_uri>http://localhost:8080/Oauth2Action</redirect_uri>	<!-- //回调地址 -->
+
+        <!-- //api 接口 -->
+        <oauth2_token>/action/openapi/token</oauth2_token>						<!-- //oauth2_token api -->
+        <blog_pub>/action/openapi/blog_pub</blog_pub>							<!-- //blog_pub api -->
+        <tweet_pub>/action/openapi/tweet_pub</tweet_pub>							<!-- //tweet_pub api -->
+        <tweet_list>/action/openapi/tweet_list</tweet_list>							<!-- //tweet_pub api -->
+        <openapi_user>/action/openapi/user</openapi_user>						<!-- //user api -->
+
+        <blog_sys_catalog>/action/openapi/blog_catalog_list</blog_sys_catalog>				<!-- //user api -->
+
+    </appconfig>
+</config>
